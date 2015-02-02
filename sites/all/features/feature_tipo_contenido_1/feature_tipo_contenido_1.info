@@ -1,0 +1,13 @@
+name = Feature_tipo_contenido_1
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = image
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_imagen
+features[field_instance][] = node-tipo_contenido_1-body
+features[field_instance][] = node-tipo_contenido_1-field_imagen
+features[node][] = tipo_contenido_1
+project path = sites/all/features
